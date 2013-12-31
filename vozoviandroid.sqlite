@@ -1,0 +1,87 @@
+
+-- Table: bar
+CREATE TABLE bar ( 
+    polazakiz      VARCHAR( 255 ),
+    vrijemepolaska TIME 
+);
+
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '18:30:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '09:00:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '19:00:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '05:25:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '06:35:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '09:00:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '10:20:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '11:35:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '14:05:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '14:50:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '16:40:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '18:30:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '18:30:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '20:30:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '05:25:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '09:00:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '14:50:00');
+INSERT INTO [bar] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '19:00:00');
+
+-- Table: bijelopolje
+CREATE TABLE bijelopolje ( 
+    polazakiz      VARCHAR( 255 ),
+    vrijemepolaska TIME 
+);
+
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '04:09:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '09:01:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '17:18:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '18:35:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '04:15:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '09:02:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '17:21:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '18:35:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '12:27:00');
+INSERT INTO [bijelopolje] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '22:35:00');
+
+-- Table: niksic
+CREATE TABLE niksic ( 
+    polazakiz      VARCHAR( 255 ),
+    vrijemepolaska TIME 
+);
+
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '08:40:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '15:35:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '06:25:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '08:40:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '09:50:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '12:40:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '15:35:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '18:05:00');
+INSERT INTO [niksic] ([polazakiz], [vrijemepolaska]) VALUES ('Podgorica', '21:00:00');
+
+-- Table: podgorica
+CREATE TABLE podgorica ( 
+    polazakiz      VARCHAR( 255 ),
+    vrijemepolaska TIME 
+);
+
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '10:00:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Beograd', '20:05:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '06:25:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '10:00:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '15:50:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bijelo Polje', '20:05:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '07:00:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '08:05:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '11:20:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '14:00:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '16:10:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Niksic', '20:30:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '05:15:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '06:27:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '10:10:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '11:30:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '12:50:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '15:20:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '16:50:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '18:00:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '21:10:00');
+INSERT INTO [podgorica] ([polazakiz], [vrijemepolaska]) VALUES ('Bar', '19:29:00');
